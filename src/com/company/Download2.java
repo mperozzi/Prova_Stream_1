@@ -8,7 +8,7 @@ import java.net.URL;
 public class Download2 {
 
     String url = "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.xls";
-    String filename = "C:\\Users\\Matteo\\Desktop\\prova";
+    String filename = "C:/Users/Matteo/Desktop/prova.xls";
 
     public void dwn2() {
         try (BufferedInputStream in = new BufferedInputStream(new URL(this.url).openStream());
